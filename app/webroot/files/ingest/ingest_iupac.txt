@@ -1,0 +1,80 @@
+unit	string	repsystem	url	name	status	reason	ascii	html	latex	siunitx1	siunitx2	vounit	comments
+per mole	mol<sup>-1</sup>	3		upright per mol	preferred		mol^-1	mol<sup>-1</sup>	\text{mol}^{-1}	\si{mol^{-1}}	\si{\per\mole}	mol**-1	
+kilogram per mole	kg mol<sup>-1</sup>	3		upright kg per mol	current		kg mol^-1	kg mol<sup>-1</sup>	\text{kg mol}^{-1}	\si{kg.mol^{-1}}	\si{\kilogram\per\mole}	kg.mol**-1	
+gram per mole	g mol<sup>-1</sup>	3		upright g per mol	current		g mol^-1	g mol<sup>-1</sup>	\text{g mol}^{-1}	\si{g.mol^{-1}}	\si{\gram\per\mole}	g.mol**-1	
+pascal	Pa	3		upright capital p and a	preferred		Pa	Pa	\text{Pa}	\si{Pa}	\si{\pascal}	Pa	
+kilogram per meter cubed	kg m<sup>-3</sup>	3		upright kg per m-3	current		kg m^-3	kg m<sup>-3</sup>	\text{kg m}^{-3}	\si{kg.m^{-3}}	\si{\kilogram\per\meter\cubed}	kg.m**-3	
+mole per meter cubed	mol m<sup>-3</sup>	3		upright mol per m-3	current		mol m^-3	mol m<sup>-3</sup>	\text{mol m}^{-3}	\si{mol.m^{-3}}	\si{\mole\per\meter\cubed}	m**-3.mol	
+mole per kilogram	mol kg<sup>-1</sup>	3		upright mol per kg-3	current		mol kg^-1	mol kg<sup>-1</sup>	\text{mol kg}^{-1}	\si{mol.kg^{-1}}	\si{\mole\per\kilogram}	kg**-1.mol	
+mole per meter squared	mol m<sup>-2</sup>	3		upright mol per m-2	current		mol m^-1	mol m<sup>-2</sup>	\text{mol m}^{-2}	\si{mol.m^{-2}}	\si{\mole\per\meter\squared}	m**-2.mol	
+degree celcius	°C	3		upright ° and capital C	preferred		°C	°C	\degree\text{C}	\si{\celsius}			
+joule per kelvin	J K<sup>-1</sup>	3		upright capital J K and -1	current		J K^-1	J K<sup>-1</sup>	\text{J K}^{-1}	\si{J.K^{-1}}	\si{\joule\per\kelvin}	J.K**-1	
+joule per meter squared	J m<sup>-2</sup>	3		upright capital J and m-2	current		J m^-2	J m<sup>-2</sup>	\text{J m}^{-2}	\si{J.m^{-2}}	\si{\joule\per\meter\squared}	J.m**-2	
+newton per meter	N m<sup>-1</sup>	3		upright capital N and m-1	current		N m^-1	N m<sup>-1</sup>	\text{N m}^{-1}	\si{N.m^{-1}}	\si{\newton\per\meter}	m**-1.N	
+pascal per kelvin	Pa K<sup>-1</sup>	3		"upright capital P, a, capital K and -1"	current		Pa K^-1	Pa K<sup>-1</sup>	\text{Pa K}^{-1}	\si{Pa.K^{-1}}	\si{\pascal\per\kelvin}	K**-1.Pa	
+per kelvin	K<sup>-1</sup>	3		upright capital K and -1	current		K^-1	K<sup>-1</sup>	\text{K}^{-1}	\si{K^{-1}}	\si{\per\kelvin}	K**-1	
+per pascal	Pa<sup>-1</sup>	3		upright capital Pa and -1	current		Pa^-1	Pa<sup>-1</sup>	\text{Pa}^{-1}	\si{Pa^{-1}}	\si{\per\pascal}	Pa**-1	
+meter per second	m s<sup>-1</sup>	3		upright m s-1	current		m s^-1	m s<sup>-1</sup>	\text{m s}^{-1}	\si{m.s^{-1}}	\si{\meter\per\second}	m.s**-1	
+meter cubed	m<sup>3</sup>	3		upright m3	current		m^3	m<sup>3</sup>	\text{m}^{3}	\si{m^{3}}	\si{\meter\cubed}	m**3	
+radian per second	rad s<sup>-1</sup>	3		upright rad s-1	current		rad s^-1	rad s<sup>-1</sup>	\text{rad s}^{-1}	\si{rad.s^{-1}}	\si{\radian\per\second}	rad.s**-1	
+kilogram per meter squared	kg m<sup>-2</sup>	3		upright kg m-2	current		kg m^-2	kg m<sup>-2</sup>	\text{kg m}^{-2}	\si{kg.m^{-2}}	\si{\kilogram\per\meter\squared}	kg.m**-2	
+meter cubed per kilogram	m<sup>3</sup> kg<sup>-1</sup>	3		upright m3 kg-1	current		m^3 kg^-1	m<sup>3</sup> kg<sup>-1</sup>	"\text{m}^{3}\,\text{kg}^{-1}"	\si{m^{3}.kg^{-1}}	\si{\meter\cubed\per\kilogram}	m**3.kg**-1	
+kilogram meter per second	kg m s<sup>-1</sup>	3		upright kg m s-1	current		kg m s^-1	kg m s<sup>-1</sup>	\text{kg m s}^{-1}	\si{kg.m.s^{-1}}	\si{\kilogram\meter\per\second}	m.kg.s**-1	
+joule second	J s	3		upright capital J and s	current		J s	J s	\text{J s}	\si{J.s}	\si{\joule\second}	J.s	
+watt	W	3		upright capital W	current		W	W	\text{W}	\si{W}	\si{\watt}	W	
+newton meter squared per kilogram squared	N m<sup>2</sup> kg<sup>-2</sup>	3		upright capital N and m2 kg-2	current		N m^2 kg^-2	N m<sup>2</sup> kg<sup>-2</sup>	"\text{N m}^{2}\,\text{kg}^{-2}"	\si{N.m^{2}.kg^{-2}}	\si{\newton\meter\squared\per\kilogram\squared}	kg**-2.m**2.N	
+meter second per kilogram	m kg<sup>-1</sup> s	3		upright m kg-1 s	current		m kg^-1 s	m kg<sup>-1</sup> s	"\text{m kg}^{-1}\,\text{s}"	\si{m.kg^{-1}.s}	\si{\meter\per\kilogram\second}	kg**-1.m.s	
+meter squared per second	m<sup>2</sup> s<sup>-1</sup>	3		upright m2 s-1	current		m^2 s^-1	m<sup>2</sup> s<sup>-1</sup>	"\text{m}^{2}\,\text{s}^{-1}"	\si{m^{2}.s^{-1}}	\si{\meter\squared\per\second}	m**2.s**-1	
+pascal second	Pa s	3		upright capital p and a s	preferred		Pa s	Pa s	\text{Pa s}	\si{Pa.s}	\si{\pascal\second}	Pa.s	
+ampere per meter squared	A m<sup>-2</sup>	3		upright capital A and m-2	current		A m^-2	A m<sup>-2</sup>	\text{A m}^{-2}	\si{A.m^{-2}}	\si{\ampere\per\meter\squared}	A.m**-2	
+coulomb per meter cubed	C m<sup>-3</sup>	3		upright capital c and per m-3	current		C m^-3	C m<sup>-3</sup>	\text{C m}^{-3}	\si{C.m^{-3}}	\si{\coulomb\per\meter\cubed}	C.m**-3	
+coulomb per meter squared	C m<sup>-2</sup>	3		upright capital c and per m-2	current		C m^-2	C m<sup>-2</sup>	\text{C m}^{-2}	\si{C.m^{-2}}	\si{\coulomb\per\meter\squared}	C.m**-2	
+volt	V	3		upright capital V	preferred		V	V	\text{V}	\si{V}	\si{\volt}	V	
+joule per coulomb	J C<sup>-1</sup>	3		upright capital J C and -1	current		J C^-1	J C<sup>-1</sup>	\text{J C}^{-1}	\si{J.C^{-1}}	\si{\joule\per\coulomb}	C**-1.J	
+volt per meter	V m<sup>-1</sup>	3		upright capital V and m-1	current		V m^-1	V m<sup>-1</sup>	\text{V m}^{-1}	\si{V.m^{-1}}	\si{\volt\per\meter}	m**-1.V	
+farad	F	3		upright capital F	current		F	F	\text{F}	\si{F}	\si{\farad}	F	
+coulomb per volt	C V<sup>-1</sup>	3		upright capital C V and -1	current		C V^-1	C V<sup>-1</sup>	\text{C V}^{-1}	\si{C.V^{-1}}	\si{\coulomb\per\volt}	C.V**-1	
+farad per meter	F m<sup>-1</sup>	3		upright capital F and m-1	current		F m^-1	F m<sup>-1</sup>	\text{F m}^{-1}	\si{F.m^{-1}}	\si{\farad\per\meter}	F.m**-1	
+coulomb meter per joule	C m J<sup>-1</sup>	3		"upright capital C, m, capital J and -1"	current		C m J^-1	C m J<sup>-1</sup>	\text{C m J}^{-1}	\si{C.m.J^{-1}}	\si{\coulomb\meter\per\joule}	C.J**-1.m	
+meter per volt	m V<sup>-1</sup>	3		"upright m, capital V and -1"	current		m V^-1	m V<sup>-1</sup>	\text{m V}^{-1}	\si{m.V^{-1}}	\si{\meter\per\volt}	m.V**-1	
+coulomb squared meter squared per joule squared	C<sup>2</sup> m<sup>2</sup> J<sup>-2</sup>	3		"upright capital C, 2 m^2, capital J and -2"	current		C^2 m^2 J^-1	C<sup>2</sup> m<sup>2</sup> J<sup>-2</sup>	"\text{C}^{2}\,\text{m}^{2}\,\text{J}^{-2}"	\si{C^{2}.m^{2}.J^{-2}}	\si{\coulomb\squared\meter\squared\per\joule\squared}	C.J**-1.m	
+meter squared per volt squared	m<sup>2</sup> V<sup>-2</sup>	3		"upright m^2, capital V and -2"	current		m^2 V^-2	m<sup>2</sup> V<sup>-2</sup>	"\text{m}^{2}\,\text{V}^{-2}"	\si{m^{2}.V^{-2}}	\si{\meter\squared\per\volt\squared}	m**2.V**-2	
+coulomb meter	C m	3		upright capital C and m	current		C m	C m	\text{C m}	\si{C.m}	\si{\coulomb\meter}	C.m	
+tesla	T	3		upright capital T	current		T	T	\text{T}	\si{T}	\si{\tesla}	T	
+weber	Wb	3		upright capital W and b	current		Wb	Wb	\text{Wb}	\si{Wb}	\si{\weber}	Wb	
+ampere per meter	A m<sup>-1</sup>	3		upright capital A and m-1	current		A m^-1	A m<sup>-1</sup>	\text{A m}^{-1}	\si{A.m^{-1}}	\si{\ampere\per\meter}	A.m**-1	
+newton per ampere squared	N A<sup>-2</sup>	3		upright capital N A and -2	current		N A^-2	N A<sup>-2</sup>	\text{N A}^{-2}	\si{N.A^{-2}}	\si{\newton\per\ampere\squared}	A**-2.N	
+henry per meter	H m<sup>-1</sup>	3		upright capital H and m-1	current		H m^-1	H m<sup>-1</sup>	\text{H m}^{-1}	\si{H.m^{-1}}	\si{\henry\per\meter}	H.m**-1	
+joule per tesla	J T<sup>-1</sup>	3		upright capital J T and -1	current		J T^-1	J T<sup>-1</sup>	\text{J T}^{-1}	\si{J.T^{-1}}	\si{\joule\per\tesla}	J.T**-1	
+ohm	Ω	3		upright capital Ω	current		Ω	&Omega;	\Omega		\si{\ohm}	Ohm	
+siemens	S	3		upright capital S	current		S	S	\text{S}	\si{S}	\si{\siemens}	S	
+ohm meter	Ω m	3		upright capital Ω and m	current		Ω m	&Omega;&nbsp;m	"\Omega\,\text{m}"		\si{\ohm\meter}	m.Ohm	
+siemens per meter	S m<sup>-1</sup>	3		upright capital S and m-1	current		S m^-1	S m<sup>-1</sup>	\text{S m}^{-1}	\si{S.m^{-1}}	\si{\siemens\per\meter}	m**-1.S	
+henry	H	3		upright capital H	current		H	H	\text{H}	\si{H}	\si{\henry}	H	
+volt second per ampere	V s A<sup>-1</sup>	3		"upright capital V, s, capital A and -1"	current		V s A^-1	V s A<sup>-1</sup>	\text{V s A}^{-1}	\si{V.s.A^{-1}}	\si{\volt\second\per\ampere}	A**-1.s.V	
+weber per meter	Wb m<sup>-1</sup>	3		upright capital W and b m-1	current		Wb m^-1	Wb m<sup>-1</sup>	\text{Wb m}^{-1}	\si{Wb.m^{-1}}	\si{\weber\per\meter}	m**-1.Wb	
+watt per meter squared	W m<sup>-2</sup>	3		upright capital W and m-2	current		W m^-2	W m<sup>-2</sup>	\text{W m}^{-2}	\si{W.m^{-2}}	\si{\watt\per\meter\squared}	m**-2.W	
+joule second per meter	J s m<sup>-1</sup>	3		upright capital J and s	current		J s m^-1	J s m<sup>-1</sup>	\text{J s m}^{-1}	\si{J.s.m^{-1}}	\si{\joule\second\per\meter}	m**-1.J.s	
+per meter cubed	m<sup>-3</sub>	3		upright m-3	current		m^-3	m<sup>-3</sub>	\text{m}^{-3}	\si{m^{-3}}	\si{\per\meter\cubed}	m**-3	
+per meter squared per second	m<sup>-2</sub> s<sup>-1</sub>	3		upright m-2 s-1	current		m^-2 s^-1	m<sup>-2</sub> s<sup>-1</sub>	"\text{m}^{-2}\,\text{s}^{-1}"	\si{m^{-2}.s^{-1}}	\si{\per\meter\squared\per\second}	m**-2.s**-1	
+meter to the -3/2 power	m<sup>-3/2</sub>	3		upright m-3/2	current		m^-3/2	m<sup>-3/2</sub>	\text{m}^{-3/2}	\si{m^{-3/2}}	\si{\per\meter\tothe{3/2}}	m**-(3/2)	
+per mole	m<sup>-1</sup>	3		upright per m	current		m^-1	m<sup>-1</sup>	\text{m}^{-1}	\si{m^{-1}}	\si{\per\meter}	m**-1	
+per second per tesla	s<sup>-1</sup> T<sup>-1</sup>	3		"upright s-1, cpaital T and -1"	current		s^-1 T^-1	s<sup>-1</sup>	"\text{s}^{-1}\,\text{T}^{-1}"	\si{s^{-1}.T^{-1}}	\si{\per\second\per\tesla}	s**-1.T**-1	
+coulomb meter squared	C m<sup>2</sup>	3		upright capital c and per m2	current		C m^2	C m<sup>2</sup>	\text{C m}^{2}	\si{C.m^{2}}	\si{\coulomb\meter\squared}	C.m**2	
+volt per meter squared	V m<sup>-2</sup>	3		upright capital V and m-2	current		V m^-2	V m<sup>-2</sup>	\text{V m}^{-2}	\si{V.m^{-2}}	\si{\volt\per\meter\squared}	m**-2.V	
+coulomb squared meter squared per joule	C<sup>2</sup> m<sup>2</sup> J<sup>-1</sup>	3		"upright capital C, 2 m^2, capital J and -2"	current		C^2 m^2 J^-1	C<sup>2</sup> m<sup>2</sup> J<sup>-2</sup>	"\text{C}^{2}\,\text{m}^{2}\,\text{J}^{-1}"	\si{C^{2}.m^{2}.J^{-1}}	\si{\coulomb\squared\meter\squared\per\joule}	C**2.J**-1.m**2	
+coulomb cubed meter cubed per joule squared	C<sup>3</sup> m<sup>3</sup> J<sup>-2</sup>	3		"upright capital C, 3 m^3, capital J and -2"	current		C^3 m^3 J^-2	C<sup>3</sup> m<sup>3</sup> J<sup>-2</sup>	"\text{C}^{3}\,\text{m}^{3}\,\text{J}^{-2}"	\si{C^{3}.m^{3}.J^{-2}}	\si{\coulomb\cubed\meter\cubed\per\joule\squared}	C**3.J**-2.m**3	
+coulomb to the fourth power meter to the forth power per joule cubed	C<sup>4</sup> m<sup>$</sup> J<sup>-3</sup>	3		"upright capital C, 4 m^4, capital J and -3"	current		C^4 m^4 J^-3	C<sup>4</sup> m<sup>4</sup> J<sup>-3</sup>	"\text{C}^{4}\,\text{m}^{4}\,\text{J}^{-3}"	\si{C^{4}.m^{4}.J^{-3}}	\si{\coulomb\tothe{4}\meter\tothe{4}\per\joule\cubed}	C**4.J**-3.m**4	
+becquerel	Bq	3		"upright capital B, and ecquerel"	current		Bq	Bq	\text{Bq}	\si{Bq}	\si{\becquerel}	Bq	not valid (not in spec)
+meter squared	m<sup>2</sup>	3		upright m2	current		m^2	m<sup>2</sup>	\text{m}^{2}	\si{m^{2}}	\si{\meter\squared}	m**2	
+per meter	m<sup>-1</sub>	3		upright m-1	current		m^-1	m<sup>-1</sub>	\text{m}^{-1}	\si{m^{-1}}	\si{\per\meter}	m**-1	
+kilogram meter squared	kg m<sup>2</sup>	3		upright kg m2	current		kg m^2	kg m<sup>2</sup>	\text{kg m}^{2}	\si{kg.m^{2}}	\si{\kilogram\meter\squared}	kg.m**2	
+kilogram to the half power meter	kg<sup>1/2</sup>  m	3		upright kg^1/2 m	current		kg^1/2 m	kg<sup>1/2</sup>  m	"\text{kg}^{1/2}\,\text{m}"	\si{kg^{1/2}.m}	\si{\kilogram\tothe{1/2}\meter}	kg**(1/2).m	
+tesla squared per joule	T<sup>2</sup> J<sup>-1</sup>	3		"upright capital T, ^2, capital j and -1"	current		T^2 J^-1	T<sup>2</sup> J<sup>-1</sup>	"\text{T}^{2}\,\text{J}^{-1}"	\si{T^{2}.J^{-1}}	\si{\tesla\squared\per\joule}	J**-1.T**2	
+newton per ampere squared per meter cubed	N A<sup>-2</sup> m<sup>-3</sup>	3		upright capital N A and -2 m-3	current		N A^-2 m^-3	N A<sup>-2</sup> m<sup>-3</sup>	"\text{N A}^{-2}\,\text{m}^{-3}"	\si{N.A^{-2}.m^{-3}}	\si{\newton\per\ampere\squared\per\meter\cubed}	A**-2.m**-3.N	
+joule per tesla per meter cubed	J T<sup>-1</sup> m<sup>-3</sup>	3		upright capital J T and -1	current		J T^-1 m^-3	J T<sup>-1</sup> m<sup>-3</sup>	"\text{J T}^{-1}\,\text{m}^{-3}"	\si{J.T^{-1}.m^{-3}}	\si{\joule\per\tesla\per\meter\cubed}	m**-3.J.T**-1	
+joule per meter cubed	J m<sup>-3</sup>	3		upright capital J and m-3	current		J m^-3	J m<sup>-3</sup>	\text{J m}^{-3}	\si{J.m^{-3}}	\si{\joule\per\meter\cubed}	J.m**-3	
+joule per meter cubed per hertz	J m<sup>-3</sup> Hz<sup>-1</sup>	3		"upright capital J, m-3, capital H and z"	current		J m^-3 Hz^-1	J m<sup>-3</sup> Hz<sup>-1</sup>	"\text{J m}^{-3}\,\text{Hz}^{-1}"	\si{J.m^{-3}.Hz^{-1}}	\si{\joule\per\meter\cubed\per hertz}	J.m**-3.Hz**-1	
+joule per meter to the forth power	J m<sup>-4</sup>	3		upright capital J and m-4	current		J m^-4	J m<sup>-4</sup>	\text{J m}^{-4}	\si{J.m^{-4}}	\si{\joule\per\meter\tothe{4}}	J.m**-4	
+watt per steradian	W sr<sup>-1</sup>	3		upright capital W and sr-1	current		W sr^-1	W sr<sup>-1</sup>	\text{W sr}^{-1}	\si{W.sr^{-1}}	\si{\watt\per\steradian}	sr**-1.W	
+up to page 34													

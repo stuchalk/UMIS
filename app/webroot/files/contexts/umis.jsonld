@@ -1,0 +1,94 @@
+{
+    "@context": {
+        "@vocab": "https://www.w3.org/2001/XMLSchema#",
+        "dc": "https://purl.org/dc/terms/",
+        "w3c": "https://schema.org/",
+        "iao": " http://purl.obolibrary.org/obo/iao.owl#",
+        "uom": "http://www.ontology-of-units-of-measure.org/resource/om-2/",
+        "ncit": "http://purl.obolibrary.org/obo/ncit.owl#",
+        "version": {
+            "@id": "dc:version",
+            "@type": "string"
+        },
+        "uid": {
+            "@id": "dc:identifier",
+            "@type": "string"
+        },
+        "title": {
+            "@id": "dc:title",
+            "@type": "string"
+        },
+        "description": {
+            "@id": "dc:description",
+            "@type": "string"
+        },
+        "timestamp": {
+            "@id": "dc:date",
+            "@type": "string"
+        },
+        "apiurl": {
+            "@id": "w3c:url",
+            "@type": "anyURI"
+        },
+        "apiversion": {
+            "@id": "dc:version",
+            "@type": "string"
+        },
+        "units": {
+            "@id": "dc:hasPart",
+            "@type": "string"
+        },
+        "name": {
+            "@id": "w3c:name",
+            "@type": "string"
+        },
+        "url": {
+            "@id": "w3c:url",
+            "@type": "anyURI"
+        },
+        "unitshortcode": {
+            "@id": "dc:identifier",
+            "@type": "string"
+        },
+        "unittype": {
+            "@id": "dc:type",
+            "@type": "string"
+        },
+        "symbol": {
+            "@id": "ncit:NCIT_C54191",
+            "@type": "string"
+        },
+        "dimshortcode": {
+            "@id": "dc:identifier",
+            "@type": "string"
+        },
+        "string": {
+            "@id": "dc:identifier",
+            "@type": "string"
+        },
+        "usagestatus": {
+            "@id": "ncit:NCIT_C25688",
+            "@type": "string"
+        },
+        "unitsystem": {
+            "@id": "uom:SystemOfUnits",
+            "@type": "string"
+        },
+        "unitsystemurl": {
+            "@id": "w3c:url",
+            "@type": "anyURI"
+        },
+        "repsystem": {
+            "@id": "iao:IAO_0000098",
+            "@type": "string"
+        },
+        "repsystemurl": {
+            "@id": "w3c:url",
+            "@type": "anyURI"
+        },
+        "repsystemuniturl": {
+            "@id": "w3c:url",
+            "@type": "anyURI"
+        }
+    }
+}

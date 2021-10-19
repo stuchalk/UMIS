@@ -1,0 +1,41 @@
+{
+    "@context": [
+        "https://exam.org/digitalSI/context/constants.jsonld",
+        {
+            "xsd": "https://www.w3.org/2001/XMLSchema#",
+            "exam": "https://exam.org/digitalSI/ontology/si.owl"
+        },
+        {"@base": "https://exam.org/digitalSI/constants/planck/"}
+    ],
+    "@id": "https://exam.org/digitalSI/constants/planck/",
+    "@graph": {
+        "@id": "",
+        "@type": "exam:physical_constant",
+        "uid": "exam:constant:planck_constant",
+        "name": "Planck constant",
+        "description": "The Planck constant, or Planck's constant is the quantum of electromagnetic action that relates a photon's energy to its frequency",
+        "version": "exam2019",
+        "symbol": "h",
+        "validfrom": "2019-05-20",
+        "mantissa": {
+            "@value": 6.62607015,
+            "@type": "xsd:decimal"
+        },
+        "exponent": {
+            "@value": -34,
+            "@type": "xsd:integer"
+        },
+        "uncertainty": "exact",
+        "unitString": "J s",
+        "unitStringSI": "kg m2 s-1",
+        "unitCode": "m'2'kg'1'_s'1'_U0",
+        "dimensionvectorCode": "L'2'M'1'_T'1'_D0",
+        "provenance": {
+            "@id": "provenance/",
+            "@type": "exam:provenance",
+            "authority": "exam",
+            "timestamp": "2019-05-20",
+            "ref": "https://physics.nist.gov/cgi-bin/cuu/Value?h"
+        }
+    }
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1622837579698" name="http://qudt.org/2.1/vocab/quantitykind" uri="VOCAB_QUDT-UNITS-ALL-v2.1.xml"/>
+    </group>
+</catalog>

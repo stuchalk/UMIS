@@ -1,0 +1,665 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html>
+<head>
+<TITLE>IEC - Common Data Dictionary (CDD)</TITLE>
+<meta name="keyword" content="IEC - Common Data Dictionary (CDD), IEC, International Electrotechnical Commission">
+<STYLE TYPE="text/css">  a:link {color: blue ; text-decoration: none}  a:visited { color: blue ; text-decoration: none }  a:active { color: blue ; text-decoration: none }  a:hover { color: blue ; text-decoration: none; background-color: #C0C0C0}  td { font-size: 9pt; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; color: #333333; padding-left: 0px  ; padding-right: 0px ; padding-top: 1px ; padding-bottom: 1px }   td.caption1 {font-size: 12pt;  font-family: Arial, Helvetica, sans-serif ; font-weight: bold} td.export { border-style: solid; border-color: #000000; border-width: 1px 0px 0px 1px } </STYLE>   <STYLE TYPE="text/css" media="print"> .hide { display: none } </STYLE>  <SCRIPT LANGUAGE="JavaScript" type="text/javascript">   function popup(name) { msgWindow=open(name,'popup','history=yes,toolbar=no,scrollbars=yes,resizable=yes,width=720,height=600') }    function printWindow() { bV = parseInt(navigator.appVersion); if (bV >= 4) window.print(); }   </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-34398331-10', 'auto');
+  ga('send', 'pageview');
+</script>
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="-1"> 
+<script type="text/javascript" src="/cdd/iec61360/iec61360.nsf/dtree.js"></script>
+<link rel="stylesheet" href="/cdd/iec61360/iec61360.nsf/styles/main.css">
+<script type="text/javascript" language="JavaScript" src="/cdd/iec61360/iec61360.nsf/js/script.js"></script>
+<script type="text/javascript" language="JavaScript" src="/cdd/iec61360/iec61360.nsf/js/lib_lang.js"></script>
+<script type="text/javascript" language="javascript" src="/cdd/iec61360/iec61360.nsf/DatePicker"></script>
+<link rel="stylesheet" type="text/css" href="/cdd/iec61360/iec61360.nsf/styles/xulmenu.css" />
+<script type="text/javascript" src="/cdd/iec61360/iec61360.nsf/ie5.js"></script>
+<script type="text/javascript" src="/cdd/iec61360/iec61360.nsf/XulMenu.js"></script>
+<link rel="StyleSheet" href="/cdd/iec61360/iec61360.nsf/dtree.css" type="text/css" />
+
+<script language="JavaScript" type="text/javascript" src="/cdd/iec61360/iec61360.nsf/js/collapsibleSection.js?OpenJavascriptLibrary">
+</script>
+
+<script language="JavaScript" type="text/javascript">
+<!-- 
+document._domino_target = "_self";
+function _doClick(v, o, t) {
+  var returnValue = false;
+  var url="/cdd/iec61360/iec61360.nsf/d8529e90921d5a2fc12579d40042db82/17c703a82e52dd5fc125835a00335209?OpenDocument&Click=" + v;
+  if (o.href != null) {
+    o.href = url;
+    returnValue = true;
+  } else {
+    if (t == null)
+      t = document._domino_target;
+    window.open(url, t);
+  }
+  return returnValue;
+}
+// -->
+</script>
+<link rel="stylesheet" type="text/css" href="/cdd/iec61360/iec61360.nsf/DatePicker.css?OpenCssResource">
+</head>
+<body text="#000000" bgcolor="#FFFFFF" leftmargin=0 rightmargin=0 topmargin=0 onload="displayGoodLang();transformGreekAndSupAll();">
+
+<form action=""><div style="display:none"> 
+<input type="button" value="DeleteVersion" id="deleteV" onclick="return _doClick('C1258408003888B1.fba8cee12836e961c1257549005144b3/$Body/0.3B8', this, null)">
+<input type="button" value="Hard Version" id="deleteH" onclick="return _doClick('C1258408003888B1.fba8cee12836e961c1257549005144b3/$Body/0.466', this, null)"> 
+<input type="button" value="Restore" id="restoreV" onclick="return _doClick('C1258408003888B1.fba8cee12836e961c1257549005144b3/$Body/0.510', this, null)">
+<input type="button" value="Save" id="SaveB" onclick="return _doClick('C1258408003888B1.fba8cee12836e961c1257549005144b3/$Body/0.5B2', this, null)"></div>
+<input name="dbPath" type="hidden" value="cdd/iec61360/iec61360.nsf">
+<input name="editMode" type="hidden" value="0">
+<input name="dsponglet" type="hidden" value="1">                     <span style="display:none"> 
+<input type="button" value="Class" id="export0" onclick="return _doClick('C1258408003888B1.b2a0e8d16e7c5938c125759800310940/$Body/0.F2', this, null)">
+<input type="button" value="Class and superclasses" id="export1" onclick="return _doClick('C1258408003888B1.b2a0e8d16e7c5938c125759800310940/$Body/0.196', this, null)">
+<input type="button" value="Class and subclasses" id="export2" onclick="return _doClick('C1258408003888B1.b2a0e8d16e7c5938c125759800310940/$Body/0.24C', this, null)">
+<input type="button" value="Composition" id="export21" onclick="return _doClick('C1258408003888B1.b2a0e8d16e7c5938c125759800310940/$Body/0.300', this, null)"> </span>
+                       <span style="display:none"> 
+<input type="button" value="Class" id="export3" onclick="return _doClick('C1258408003888B1.b2a0e8d16e7c5938c125759800310940/$Body/0.414', this, null)">
+<input type="button" value="Class and superclasses" id="export4" onclick="return _doClick('C1258408003888B1.b2a0e8d16e7c5938c125759800310940/$Body/0.4BA', this, null)">
+<input type="button" value="Class and subclasses" id="export5" onclick="return _doClick('C1258408003888B1.b2a0e8d16e7c5938c125759800310940/$Body/0.572', this, null)"> 
+<input type="button" value="All attributes" id="export6" onclick="return _doClick('C1258408003888B1.b2a0e8d16e7c5938c125759800310940/$Body/0.62C', this, null)">
+<input type="button" value="All attributes and superclasses" id="export7" onclick="return _doClick('C1258408003888B1.b2a0e8d16e7c5938c125759800310940/$Body/0.6E4', this, null)"> </span>
+ <span style="display:none"> 
+<input type="button" value="Property" id="exportP0" onclick="return _doClick('C1258408003888B1.b2a0e8d16e7c5938c125759800310940/$Body/0.89A', this, null)">
+<input type="button" value="Value list" id="exportP1" onclick="return _doClick('C1258408003888B1.b2a0e8d16e7c5938c125759800310940/$Body/0.940', this, null)">
+<input type="button" value="All attributes" id="exportPAll" onclick="return _doClick('C1258408003888B1.b2a0e8d16e7c5938c125759800310940/$Body/0.9EC', this, null)"></span>
+ <span style="display:none"> 
+<input type="button" value="Value list" id="exportE0" onclick="return _doClick('C1258408003888B1.b2a0e8d16e7c5938c125759800310940/$Body/0.B8E', this, null)"> 
+<input type="button" value="Terminology" id="exportE1" onclick="return _doClick('C1258408003888B1.b2a0e8d16e7c5938c125759800310940/$Body/0.C3C', this, null)">
+<input type="button" value="All attributes" id="exportEAll" onclick="return _doClick('C1258408003888B1.b2a0e8d16e7c5938c125759800310940/$Body/0.CEE', this, null)"></span>
+ <span style="display:none"> 
+<input type="button" value="Terminology" id="exportT0" onclick="return _doClick('C1258408003888B1.b2a0e8d16e7c5938c125759800310940/$Body/0.E92', this, null)"> </span>
+ <span style="display:none"> 
+<input type="button" value="Unit" id="exportU0" onclick="return _doClick('C1258408003888B1.b2a0e8d16e7c5938c125759800310940/$Body/0.1026', this, null)"> </span>
+ <span style="display:none"> 
+<input type="button" value="List of Units" id="exportLU0" onclick="return _doClick('C1258408003888B1.b2a0e8d16e7c5938c125759800310940/$Body/0.11B2', this, null)"> </span>
+ <span style="display:none"> 
+<input type="button" value="Relation" id="exportR0" onclick="return _doClick('C1258408003888B1.b2a0e8d16e7c5938c125759800310940/$Body/0.134E', this, null)">
+<input type="button" value="All linked objects" id="exportRAll" onclick="return _doClick('C1258408003888B1.b2a0e8d16e7c5938c125759800310940/$Body/0.13F4', this, null)"></span><script type="text/javascript">
+    var arrow1=new Image(4,7);
+    arrow1.src="/cdd/iec61360/iec61360.nsf/images/arrow1.gif";
+    var arrow2=new Image(4,7);
+    arrow2.src="/cdd/iec61360/iec61360.nsf/images/arrow2.gif";
+</script>
+<div id="bar">
+    <table cellspacing="4" cellpadding="0" id="menu1" class="XulMenu" style="margin:-4px 0 0 -4px;">
+        <tr>
+            <td><a onclick="history.back()return false;" class="button" href="">&lt;</a></td>
+            <td><a onclick="history.forward()return false;" class="button" href="">&gt;</a></td>
+            <td><a onclick="printWindow()return false;" class="button" href="">Print</a></td>
+            <td>
+                <a class="button" href="javascript:void(0)">Export</a>
+                <div class="section">
+	      <a class="item" href=# onclick="document.getElementById('exportLU0').click();">List of units attributes</a>
+                 </div>
+            </td>
+        </tr>
+    </table>
+</div>
+<script type="text/javascript">
+    var menu1=new XulMenu("menu1");
+    menu1.arrow1="/cdd/iec61360/iec61360.nsf/images/arrow1.gif";
+    menu1.arrow2="/cdd/iec61360/iec61360.nsf/images/arrow2.gif";
+    menu1.init();
+</script><div id="action" style="display:none">
+<ul>
+<li><a onclick="history.back()return false;" href="">&lt;</a></li>
+<li><a onclick="history.forward()return false;" href="">&gt;</a></li>
+<li><a onclick="printWindow()return false;" href="">Print</a></li>
+</ul>
+</div>
+<input type="hidden" value="0112/2///61360_4#~~0112/2///62720#~~0112/2///myUniverse#" name="listRAI4Transform" id="listRAI4Transform" /><div id="onglet">
+<span><span class="TabActif" id="onglet_1" onMouseOver="onglet_Change(this,1,1);" onMouseOut="onglet_Change(this,1,0);" onClick="return afficheOnglet(1);">English</span></span>
+<span><span class="Tab" id="onglet_2" onMouseOver="onglet_Change(this,2,1);" onMouseOut="onglet_Change(this,2,0);" onClick="return afficheOnglet(2);">French</span></span>
+<span><span class="Tab" id="onglet_3" onMouseOver="onglet_Change(this,3,1);" onMouseOut="onglet_Change(this,3,0);" onClick="return afficheOnglet(3);">German</span></span>
+<span><span class="Tab" id="onglet_4" onMouseOver="onglet_Change(this,4,1);" onMouseOut="onglet_Change(this,4,0);" onClick="return afficheOnglet(4);">Japanese</span></span>
+<span class="last"><span class="last" id="onglet_5" onMouseOver="onglet_Change(this,5,1);" onMouseOut="onglet_Change(this,5,0);" onClick="return afficheOnglet(5);">Chinese</span></span>
+</div><div id="main">
+<div id="onglet1" class="block">
+<table id="contentL1" width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top"><td class="detailTitleTd" width="1%" bgcolor="#FFFFFF"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td><td class="detailTitleTd" width="100%" bgcolor="#FFFFFF"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+<div align="center">LIST OF UNITS</div></td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Code: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+0112/2///62720#UAD232<input type="hidden" name="documentCode" value="0112/2///62720#UAD232"></td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Version: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+001  </td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Revision: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+01</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+IRDI: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+0112/2///62720#UAD232#001</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Preferred name: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+variation of volume (due to pressure)</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Synonymous name: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Short name: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Definition: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+quantity  &quot;variation of volume (due to pressure) &quot;</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Note: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+NOTE 1:   SI coherent derived unit expressed in terms of base units: m⁴ kg⁻¹ s² || NOTE 2:   For definition of &quot;variation of volume (due to pressure) &quot; see Figure referenced in attribute &quot;Drawing&quot;.</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Remark: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Definition source: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+IEC 60050-311:2001, 311-07-03</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Definition class: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+SI coherent derived unit: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+<a href="/cdd/iec61360/iec61360.nsf/Units/0112-2---62720%23UAD698?opendocument">0112/2///62720#UAD698 - m⁴ kg⁻¹ s²</a></td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Codes of units: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+<a href="/cdd/iec61360/iec61360.nsf/Units/0112-2---62720%23UAB323?opendocument">0112/2///62720#UAB323 - metre cubed per pascal</a><br><a href="/cdd/iec61360/iec61360.nsf/Units/0112-2---62720%23UAA387?opendocument">0112/2///62720#UAA387 - centimetre cubed per bar</a><br><a href="/cdd/iec61360/iec61360.nsf/Units/0112-2---62720%23UAA846?opendocument">0112/2///62720#UAA846 - millilitre per bar</a><br><a href="/cdd/iec61360/iec61360.nsf/Units/0112-2---62720%23UAA759?opendocument">0112/2///62720#UAA759 - metre cubed per bar</a><br><a href="/cdd/iec61360/iec61360.nsf/Units/0112-2---62720%23UAA651?opendocument">0112/2///62720#UAA651 - litre per bar</a><br><a href="/cdd/iec61360/iec61360.nsf/Units/0112-2---62720%23UAB039?opendocument">0112/2///62720#UAB039 - cubic yard per psi</a><br><a href="/cdd/iec61360/iec61360.nsf/Units/0112-2---62720%23UAA460?opendocument">0112/2///62720#UAA460 - cubic foot per psi</a></td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Data object identifier: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Drawing: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Time stamp: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Applicable properties: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Status level: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Standard</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Version initiation date: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Version release date: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+2014-02-11</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Revision release date: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+2014-02-11</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Change request ID: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+C00041</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+<div id="HistoryLabelCollapsed_1" class="collapsibleSectionVisible"><a href="javascript:expandSection('History');"><img src="/cdd/iec61360/iec61360.nsf/Collapsed?OpenImageResource" border=0>Version history: </a></div><div id="HistoryLabelExpanded_1" class="collapsibleSectionHidden"><a href="javascript:collapseSection('History');"><img src="/cdd/iec61360/iec61360.nsf/Expanded?OpenImageResource" border=0>Version history: </a></div></td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+<div class="collapsibleSectionVisibleOrPrinted"><a href="/cdd/iec61360/iec61360.nsf/0/17C703A82E52DD5FC125835A00335209">001-01 (2018-12-05 10:20:33 by BATCH 00000965) <span class="standard">standard</span></a></div></td></tr>
+</table>
+</div>
+<div id="onglet2" class="none" style="page-break-before:always;">
+<table id="contentL2" width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top"><td class="detailTitleTd" width="1%" bgcolor="#FFFFFF"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td><td class="detailTitleTd" width="100%" bgcolor="#FFFFFF"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+<div align="center">LIST OF UNITS</div></td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Code: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+0112/2///62720#UAD232</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Version: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+001</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Révision: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+01</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+IRDI: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+0112/2///62720#UAD232#001</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Nom préféré: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Nom synonyme: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Nom court: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Définition: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Note: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Remarque: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Source de définition: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+IEC 60050-311:2001, 311-07-03</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Definition class: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+SI coherent derived unit: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+<a href="/cdd/iec61360/iec61360.nsf/Units/0112-2---62720%23UAD698?opendocument">0112/2///62720#UAD698 - m⁴ kg⁻¹ s²</a></td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Codes of units: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+<a href="/cdd/iec61360/iec61360.nsf/Units/0112-2---62720%23UAB323?opendocument">0112/2///62720#UAB323 - metre cubed per pascal</a><br><a href="/cdd/iec61360/iec61360.nsf/Units/0112-2---62720%23UAA387?opendocument">0112/2///62720#UAA387 - centimetre cubed per bar</a><br><a href="/cdd/iec61360/iec61360.nsf/Units/0112-2---62720%23UAA846?opendocument">0112/2///62720#UAA846 - millilitre per bar</a><br><a href="/cdd/iec61360/iec61360.nsf/Units/0112-2---62720%23UAA759?opendocument">0112/2///62720#UAA759 - metre cubed per bar</a><br><a href="/cdd/iec61360/iec61360.nsf/Units/0112-2---62720%23UAA651?opendocument">0112/2///62720#UAA651 - litre per bar</a><br><a href="/cdd/iec61360/iec61360.nsf/Units/0112-2---62720%23UAB039?opendocument">0112/2///62720#UAB039 - cubic yard per psi</a><br><a href="/cdd/iec61360/iec61360.nsf/Units/0112-2---62720%23UAA460?opendocument">0112/2///62720#UAA460 - cubic foot per psi</a></td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Data object identifier: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Dessin: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Time stamp: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Applicable properties: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Statut: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Standard</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Version, date d'initialisation: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Version, date de publication: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+2014-02-11</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Revision release date: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+2014-02-11</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Change request ID: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+C00041</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+<div id="HistoryLabelCollapsed_2" class="collapsibleSectionVisible"><a href="javascript:expandSection('History');"><img src="/cdd/iec61360/iec61360.nsf/Collapsed?OpenImageResource" border=0>Historique: </a></div><div id="HistoryLabelExpanded_2" class="collapsibleSectionHidden"><a href="javascript:collapseSection('History');"><img src="/cdd/iec61360/iec61360.nsf/Expanded?OpenImageResource" border=0>Historique: </a></div></td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+<div class="notCollapsibleSectionVisibleNotPrinted"><a href="/cdd/iec61360/iec61360.nsf/0/17C703A82E52DD5FC125835A00335209">001-01 (2018-12-05 10:20:33 by BATCH 00000965) <span class="standard">standard</span></a></div></td></tr>
+</table>
+</div>
+<div id="onglet3" class="none" style="page-break-before:always;">
+<table id="contentL3" width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top"><td class="detailTitleTd" width="1%" bgcolor="#FFFFFF"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td><td class="detailTitleTd" width="100%" bgcolor="#FFFFFF"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+<div align="center">LIST OF UNITS</div></td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Code: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+0112/2///62720#UAD232</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Version: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+001</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Revision: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+01</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+IRDI: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+0112/2///62720#UAD232#001</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Bevorzugter Name: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Synonym: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Kurzbezeichnung: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Definition: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Notiz: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Bemerkung: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Quelle der Definition: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+IEC 60050-311:2001, 311-07-03</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Definition class: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+SI coherent derived unit: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+<a href="/cdd/iec61360/iec61360.nsf/Units/0112-2---62720%23UAD698?opendocument">0112/2///62720#UAD698 - m⁴ kg⁻¹ s²</a></td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Codes of units: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+<a href="/cdd/iec61360/iec61360.nsf/Units/0112-2---62720%23UAB323?opendocument">0112/2///62720#UAB323 - metre cubed per pascal</a><br><a href="/cdd/iec61360/iec61360.nsf/Units/0112-2---62720%23UAA387?opendocument">0112/2///62720#UAA387 - centimetre cubed per bar</a><br><a href="/cdd/iec61360/iec61360.nsf/Units/0112-2---62720%23UAA846?opendocument">0112/2///62720#UAA846 - millilitre per bar</a><br><a href="/cdd/iec61360/iec61360.nsf/Units/0112-2---62720%23UAA759?opendocument">0112/2///62720#UAA759 - metre cubed per bar</a><br><a href="/cdd/iec61360/iec61360.nsf/Units/0112-2---62720%23UAA651?opendocument">0112/2///62720#UAA651 - litre per bar</a><br><a href="/cdd/iec61360/iec61360.nsf/Units/0112-2---62720%23UAB039?opendocument">0112/2///62720#UAB039 - cubic yard per psi</a><br><a href="/cdd/iec61360/iec61360.nsf/Units/0112-2---62720%23UAA460?opendocument">0112/2///62720#UAA460 - cubic foot per psi</a></td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Data object identifier: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Zeichnung: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Time stamp: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Applicable properties: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Status: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Standard</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Version, Veranlassungsdatum: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Version, Freigabedatum: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+2014-02-11</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Revision release date: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+2014-02-11</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Change request ID: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+C00041</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+<div id="HistoryLabelCollapsed_3" class="collapsibleSectionVisible"><a href="javascript:expandSection('History');"><img src="/cdd/iec61360/iec61360.nsf/Collapsed?OpenImageResource" border=0>Historie: </a></div><div id="HistoryLabelExpanded_3" class="collapsibleSectionHidden"><a href="javascript:collapseSection('History');"><img src="/cdd/iec61360/iec61360.nsf/Expanded?OpenImageResource" border=0>Historie: </a></div></td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+<div class="notCollapsibleSectionVisibleNotPrinted"><a href="/cdd/iec61360/iec61360.nsf/0/17C703A82E52DD5FC125835A00335209">001-01 (2018-12-05 10:20:33 by BATCH 00000965) <span class="standard">standard</span></a></div></td></tr>
+</table>
+</div>
+<div id="onglet4" class="none" style="page-break-before:always;">
+<table id="contentL4" width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top"><td class="detailTitleTd" width="1%" bgcolor="#FFFFFF"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td><td class="detailTitleTd" width="100%" bgcolor="#FFFFFF"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+<div align="center">LIST OF UNITS</div></td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+識別コード: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+0112/2///62720#UAD232</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+改訂版: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+001</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+修正刷: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+01</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+IRDI: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+0112/2///62720#UAD232#001</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+推奨名: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+別名: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+略称: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+定義: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+注記: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+備考: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+定義出典: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+IEC 60050-311:2001, 311-07-03</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Definition class: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+識別コード: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+<a href="/cdd/iec61360/iec61360.nsf/Units/0112-2---62720%23UAD698?opendocument">0112/2///62720#UAD698 - m⁴ kg⁻¹ s²</a></td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+識別コード: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+<a href="/cdd/iec61360/iec61360.nsf/Units/0112-2---62720%23UAB323?opendocument">0112/2///62720#UAB323 - metre cubed per pascal</a><br><a href="/cdd/iec61360/iec61360.nsf/Units/0112-2---62720%23UAA387?opendocument">0112/2///62720#UAA387 - centimetre cubed per bar</a><br><a href="/cdd/iec61360/iec61360.nsf/Units/0112-2---62720%23UAA846?opendocument">0112/2///62720#UAA846 - millilitre per bar</a><br><a href="/cdd/iec61360/iec61360.nsf/Units/0112-2---62720%23UAA759?opendocument">0112/2///62720#UAA759 - metre cubed per bar</a><br><a href="/cdd/iec61360/iec61360.nsf/Units/0112-2---62720%23UAA651?opendocument">0112/2///62720#UAA651 - litre per bar</a><br><a href="/cdd/iec61360/iec61360.nsf/Units/0112-2---62720%23UAB039?opendocument">0112/2///62720#UAB039 - cubic yard per psi</a><br><a href="/cdd/iec61360/iec61360.nsf/Units/0112-2---62720%23UAA460?opendocument">0112/2///62720#UAA460 - cubic foot per psi</a></td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Data object identifier: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+図: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Time stamp: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Applicable properties: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+状態: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+<span>&#27161;&#28310;</span></td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+初版作成日: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+改訂版公開日: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+2014-02-11</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Revision release date: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+2014-02-11</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Change request ID: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+C00041</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+<div id="HistoryLabelCollapsed_4" class="collapsibleSectionVisible"><a href="javascript:expandSection('History');"><img src="/cdd/iec61360/iec61360.nsf/Collapsed?OpenImageResource" border=0>版改訂履歴: </a></div><div id="HistoryLabelExpanded_4" class="collapsibleSectionHidden"><a href="javascript:collapseSection('History');"><img src="/cdd/iec61360/iec61360.nsf/Expanded?OpenImageResource" border=0>版改訂履歴: </a></div></td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+<div class="notCollapsibleSectionVisibleNotPrinted"><a href="/cdd/iec61360/iec61360.nsf/0/17C703A82E52DD5FC125835A00335209">001-01 (2018-12-05 10:20:33 by BATCH 00000965) <span class="standard">standard</span></a></div></td></tr>
+</table>
+</div>
+<div id="onglet5" class="none" style="page-break-before:always;">
+<table id="contentL5" width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top"><td class="detailTitleTd" width="1%" bgcolor="#FFFFFF"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td><td class="detailTitleTd" width="100%" bgcolor="#FFFFFF"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+<div align="center">LIST OF UNITS</div></td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+代码: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+0112/2///62720#UAD232</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+版本号: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+001</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+修订号: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+01</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+IRDI: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+0112/2///62720#UAD232#001</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+推荐名: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+同义名: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+短名: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+定义: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+注释: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+备注: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+定义来源: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+IEC 60050-311:2001, 311-07-03</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+定义类: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+SI coherent derived unit: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+<a href="/cdd/iec61360/iec61360.nsf/Units/0112-2---62720%23UAD698?opendocument">0112/2///62720#UAD698 - m⁴ kg⁻¹ s²</a></td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Codes of units: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+<a href="/cdd/iec61360/iec61360.nsf/Units/0112-2---62720%23UAB323?opendocument">0112/2///62720#UAB323 - metre cubed per pascal</a><br><a href="/cdd/iec61360/iec61360.nsf/Units/0112-2---62720%23UAA387?opendocument">0112/2///62720#UAA387 - centimetre cubed per bar</a><br><a href="/cdd/iec61360/iec61360.nsf/Units/0112-2---62720%23UAA846?opendocument">0112/2///62720#UAA846 - millilitre per bar</a><br><a href="/cdd/iec61360/iec61360.nsf/Units/0112-2---62720%23UAA759?opendocument">0112/2///62720#UAA759 - metre cubed per bar</a><br><a href="/cdd/iec61360/iec61360.nsf/Units/0112-2---62720%23UAA651?opendocument">0112/2///62720#UAA651 - litre per bar</a><br><a href="/cdd/iec61360/iec61360.nsf/Units/0112-2---62720%23UAB039?opendocument">0112/2///62720#UAB039 - cubic yard per psi</a><br><a href="/cdd/iec61360/iec61360.nsf/Units/0112-2---62720%23UAA460?opendocument">0112/2///62720#UAA460 - cubic foot per psi</a></td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Data object identifier: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+图: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Time stamp: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Applicable properties: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+状态级别: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+Standard (to be translated)</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+版本生成日期: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+版本发布日期: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+2014-02-11</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+修订发布日期: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+2014-02-11</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+变更请求号: </td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+C00041</td></tr>
+
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+<div id="HistoryLabelCollapsed_5" class="collapsibleSectionVisible"><a href="javascript:expandSection('History');"><img src="/cdd/iec61360/iec61360.nsf/Collapsed?OpenImageResource" border=0>版本历史: </a></div><div id="HistoryLabelExpanded_5" class="collapsibleSectionHidden"><a href="javascript:collapseSection('History');"><img src="/cdd/iec61360/iec61360.nsf/Expanded?OpenImageResource" border=0>版本历史: </a></div></td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+<div class="notCollapsibleSectionVisibleNotPrinted"><a href="/cdd/iec61360/iec61360.nsf/0/17C703A82E52DD5FC125835A00335209">001-01 (2018-12-05 10:20:33 by BATCH 00000965) <span class="standard">standard</span></a></div></td></tr>
+</table>
+</div></div><div class="notCollapsibleSectionHiddenOrPrinted"><hr>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top"><td width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+<span style="color:#800080;" class="notCollapsibleSectionVisibleNotPrinted">Version history</span><br>
+<span style="color:#800080;" class="notCollapsibleSectionVisibleNotPrinted">Historique</span><br>
+<span style="color:#800080;" class="notCollapsibleSectionVisibleNotPrinted">Historie</span><br>
+<span style="color:#800080;" class="notCollapsibleSectionVisibleNotPrinted">版改訂履歴: </span><br>
+<span style="color:#800080;" class="notCollapsibleSectionVisibleNotPrinted">版本历史: </span></td><td style="vertical-align:bottom;" width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+<a href="/cdd/iec61360/iec61360.nsf/0/17C703A82E52DD5FC125835A00335209">001-01 (2018-12-05 10:20:33 by BATCH 00000965) <span class="standard">standard</span></a></td></tr>
+</table>
+</div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top"><td class="label" width="1%"><img width="170" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+</td><td width="100%"><img width="1" height="1" src="/icons/ecblank.gif" border="0" alt=""><br>
+<div id="HistoryContentCollapsed_1" class="collapsibleSectionVisible">.....</div><div id="HistoryContentExpanded_1" class="collapsibleSectionHiddenOrPrinted">
+<table border="0" cellpadding="2" cellspacing="0">
+<tr valign="top"><td nowrap><a href="/cdd/iec61360/iec61360.nsf/bf7bfcc7a73006aec1257552003e602d/be3954afdc25c2c1c125835a0033520a?OpenDocument">001-01 (2018-12-05 10:20:33 by BATCH 00000858) <span class="superseded">superseded</span></a></td></tr>
+</table>
+</div></td></tr>
+</table>
+<hr>
+<table cellpadding=20 width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top"><td width="34%"><i>Web page created </i><i>2021-05-31</i></td><td width="66%"><div align="right"><i>Copyright © </i><i>2021</i><i> </i><a href="http://www.iec.ch/ourwork/copyrt_db-e.htm"><i>IEC</i></a><i>,  Geneva, Switzerland. All rights reserved</i></div></td></tr>
+</table>
+</form>
+</body>
+</html>
