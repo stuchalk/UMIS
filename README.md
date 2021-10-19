@@ -1,7 +1,7 @@
 # UMIS - The Units of Measure Interoperability Service
 
 <em>This is the CakePHP Code for the UMIS website available at https://umis.stuchalk.domains.unf.edu. It does not contain
-the MySQL database with the idea that you will want to deploy this for your own units.</em>
+the MySQL database with the idea that you will want to deploy this for your own units. However, the DB schema can be found [here](umisdb.zip).</em>
 
 <p style="text-align: justify">In the move toward big data applications there are many activities focused on the structure, presentation, 
 and annotation all kinds of data.  Central though to all these efforts is the need to report a unit with
